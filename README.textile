@@ -1,23 +1,15 @@
 h1. The Diaspora for Android-Client
 
-This is the Android-Client for the privacy aware, personally controlled, do-it-all,
-open source social network.
+This is the Android-Client for the privacy aware, personally controlled, do-it-all, open source social network.
 
 h2. Current state of development
 
-All the stuff you can find here is *not usable yet*. We are at an early stage of
-development - we're still planning and discussing about what we are going to do.
+All the stuff you can find here is *not usable yet*. We are at an early stage of development - we're still planning and discussing about what we are going to do.
 
 h2. Contributing
 
-At the moment, all our communication is done via the
-"diaspora-android mailinglist":groups.google.com/group/diaspora-android
-If you want to contribute, take a look in there and see if there are any
-open things.
+At the moment, all our communication is done via the "diaspora-android mailinglist":groups.google.com/group/diaspora-android If you want to contribute, take a look in there and see if there are any open things.
 
-If you have any questions you can write to that mailinglist or ask @denschub
-via IRC. Usually you can find him in "#diaspora-dev":http://webchat.freenode.net/?channels=diaspora-dev 
-at freenode.
+If you have any questions you can write to that mailinglist or ask "denschub":http://github.com/denschub via IRC. Usually you can find him in "#diaspora-dev":http://webchat.freenode.net/?channels=diaspora-dev at freenode.
 
-Please give us some time until there is a ToDo-list with things you can start
-working on. :)
+Please give us some time until there is a ToDo-list with things you can start working on. :)
