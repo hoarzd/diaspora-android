@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TextView android:id="@+id/TextViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_username_label" />
+    <EditText android:id="@+id/username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextViewUsername"
+        android:lines="1"
+        android:hint="@string/login_username_hint" />
+    
+    <TextView android:id="@+id/TextViewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_password_label" />
+    <EditText android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextViewPassword"
+        android:lines="1"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        android:nextFocusDown="@+id/LoginButton"
+        android:hint="@string/login_password_hint" />
+        
+    <Button android:id="@+id/LoginButton"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/login_button_label" />
+</LinearLayout>

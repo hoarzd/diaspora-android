@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/screen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <ImageView android:id="@+id/titlebarLogo"
+        android:src="@drawable/diaspora_logo_large"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_margin="12dip"
+        android:scaleType="centerInside" />
+</RelativeLayout>

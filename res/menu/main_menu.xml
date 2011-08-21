@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mainmenu_home" android:icon="@drawable/ic_menu_home" android:title="@string/menu_home"/>
+    <item android:id="@+id/mainmenu_contacts" android:icon="@drawable/ic_menu_contacts" android:title="@string/menu_contacts"/>
+    <item android:id="@+id/mainmenu_notifications" android:icon="@drawable/ic_menu_notifications" android:title="@string/menu_notifications"/>
+    <item android:id="@+id/mainmenu_messages" android:icon="@drawable/ic_menu_messages" android:title="@string/menu_messages"/>
+    <item android:id="@+id/mainmenu_profile" android:icon="@drawable/ic_menu_profile" android:title="@string/menu_profile"/>
+    <item android:id="@+id/mainmenu_logout" android:icon="@drawable/ic_menu_logout" android:title="@string/menu_logout"/>
+    <item android:id="@+id/mainmenu_settings" android:icon="@drawable/ic_menu_settings" android:title="@string/menu_settings"/>
+    <item android:id="@+id/mainmenu_aspects" android:icon="@drawable/ic_menu_aspects" android:title="@string/menu_aspects"/>
+    <item android:id="@+id/mainmenu_invite" android:icon="@drawable/ic_menu_invite" android:title="@string/menu_invite"/>
+</menu>
