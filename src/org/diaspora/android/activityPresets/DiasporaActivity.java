@@ -4,17 +4,31 @@ import org.diaspora.android.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.Window;
 
 /**
  * Extended Activity with stuff like our custom titlebar and so on.
  */
 public class DiasporaActivity extends Activity {
-    /** Called when the activity is first created. */
+    /**
+     * Called when the activity is first created.
+     */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeatures();
+    }
+    
+    /**
+     * Build the main menu in every activity
+     */
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_menu, menu);
+        return true;
     }
     
     /**

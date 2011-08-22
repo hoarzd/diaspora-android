@@ -4,35 +4,27 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
     
-    <TextView android:id="@+id/TextViewUsername"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/login_username_label" />
-    <EditText android:id="@+id/username"
+    <ImageView android:id="@+id/login_asterisk_image"
+       	android:layout_gravity="center_horizontal"
+       	android:layout_width="80dip"
+       	android:layout_height="80dip"
+       	android:layout_marginTop="14dip"
+       	android:layout_marginBottom="14dip"
+       	android:src="@drawable/asterisk" />
+       	
+    <EditText android:id="@+id/diaspora_id"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/TextViewUsername"
+        android:layout_below="@id/login_asterisk_image"
         android:lines="1"
-        android:hint="@string/login_username_hint" />
-    
-    <TextView android:id="@+id/TextViewPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/login_password_label" />
-    <EditText android:id="@+id/password"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/TextViewPassword"
-        android:lines="1"
-        android:inputType="textPassword"
-        android:selectAllOnFocus="true"
-        android:nextFocusDown="@+id/LoginButton"
-        android:hint="@string/login_password_hint" />
+        android:hint="@string/login_diaspora_id_hint" />
         
     <Button android:id="@+id/LoginButton"
-        android:layout_width="wrap_content" 
+    	android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/diaspora_id"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
         android:text="@string/login_button_label" />
 </LinearLayout>
