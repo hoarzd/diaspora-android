@@ -24,10 +24,10 @@ public class LoginActivity extends DiasporaActivity {
         setDiasporaContentView(R.layout.login);
         
         final Button loginButton = (Button) findViewById(R.id.LoginButton);
-        final EditText inputPassword = (EditText) findViewById(R.id.diaspora_id);
+        final EditText inputDiasporaId = (EditText) findViewById(R.id.diaspora_id);
         loginButton.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
-                if(inputPassword.getText().length() != 0) {
+                if(inputDiasporaId.getText().length() != 0) {
                     final ImageView asteriskImage = (ImageView) findViewById(R.id.login_asterisk_image);
                     final Animation loginAsteriskRotation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.login_asterisk_rotator);
                     asteriskImage.startAnimation(loginAsteriskRotation);
@@ -47,7 +47,7 @@ public class LoginActivity extends DiasporaActivity {
                         public void onAnimationStart(Animation animation) {}
                     });
                 } else {
-                    inputPassword.setError(getString(R.string.login_diaspora_id_empty_error));
+                    inputDiasporaId.setError(getString(R.string.login_diaspora_id_empty_error));
                 }
             }
         });
